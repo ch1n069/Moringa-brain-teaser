@@ -65,3 +65,24 @@ button span img {
     color: #000;
     line-height: 1;
 }
+
+.custom-section .col-lg-4 p {
+    color: #000;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.custom-section .col-lg-4 a {
+    display: inline-block;
+    padding: 8px 22px;
+    color: #fff;
+    background-color: #1EA5F7;
+    border: 1px solid #1EA5F7;
+}
+
+.custom-section .col-lg-8 img {
+    width: 100%;
+    position: absolute;
+    top: -14rem;
+    right: -11%;
+}
