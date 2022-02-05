@@ -40,3 +40,12 @@ button span img {
 #navbarNav .navbar-nav .nav-item .nav-link:hover {
     color: lightcoral;
 }
+
+.custom-section {
+    width: inherit;
+    padding: 40px 0;
+}
+
+.custom-section .col-lg-4 {
+    margin-top: 100px;
+}
