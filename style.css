@@ -28,3 +28,15 @@ button {
 button span img {
     width: 45px;
 }
+
+#navbarNav .navbar-nav .nav-item .nav-link {
+    color: rgb(0, 0, 0);
+    padding: 6px 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover {
+    color: lightcoral;
+}
