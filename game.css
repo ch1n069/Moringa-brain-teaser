@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#card {
+    height: 500px;
+    width: 500px;
+    background-color: #fff;
+    border: 3px solid black;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 10px;
+}
