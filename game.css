@@ -5,4 +5,31 @@ body {
     font-family: 'Nunito';
     font-size: 20px;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+}
+
+.quiz-box {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    overflow: hidden;
+}
+
+#submit {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    padding: 1%;
+    border: none;
+}
+
+li {
+    list-style: none;
+    padding: 2%;
 }
