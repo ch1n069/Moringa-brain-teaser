@@ -12,7 +12,5 @@ This is a simple website about moringa teach programme that enables students to 
 * click on the live link provided in the about section 
 * Enjoy.
 
-
-## link  to figma design
->>>>>>> dcc163629a319a531a1b1ea9f45d9fac91b050a5
+## link  to figma
 * https://www.figma.com/file/Z16aSoBXZuxPoJDCwBpt2q/moringa-teach?node-id=1%3A2
