@@ -46,6 +46,7 @@ const a_text = document.getElementById('a-text')
 const b_text = document.getElementById('b-text')
 const c_text = document.getElementById('c-text')
 const d_text = document.getElementById('d-text')
+const submitBtn = document.getElementById('submit')
 
 
 let currentQuiz = 0;
@@ -81,3 +82,25 @@ function getSelected() {
     })
     return answer
 }
+
+
+submitBtn.addEventListener('click', () => {
+    const answer = getSelected()
+    if (answer) {
+        if (answer === quizData[currentQuiz].correct) {
+            score++
+
+        }
+        currentQuiz++
+
+        if (currentQuiz < quizData.length) {
+            loadQuiz()
+        } else {
+            quiz.innerHTML = `<h2>You answered ${score}/${quizData.length} questions correctly!</h2>
+
+
+                    <button onClick ="location.reload()"> Reload </button>`
+
+        }
+    }
+})
