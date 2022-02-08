@@ -10,17 +10,48 @@
 </head>
 
 <body>
-    <div id=card>
-        <div id="center">
-            <h2>Java script quiz</h2>
-            <hr/>
-            <p id="message"></p>
-            <p id="option"></p>
-            <p id="comment"></p>
-            <p id="click"></p>
-        </div>
+    <section>
+        <div class="contanier">
+            <div class="scoreBoard"><span class="score-num">0</span>/
+                <spam class="answered-num">0</span>
+                    <form id="quiz-from">
+                        <h1>Q: <span class="quiz">this is question</span></h1>
+                        <div class="all-options">
+                            <div class="option">
+                                <input type="radio" id="option1" value="1" name="quiz">
+                                <label for="option1">This is option 1</label>
+                            </div>
 
-    </div>
+                            <div class="option">
+                                <input type="radio" id="option2" value="2" name="quiz">
+                                <label for="option2">This is option 1</label>
+                            </div>
+
+
+
+                            <div class="option">
+                                <input type="radio" id="option3" value="3" name="quiz">
+                                <label for="option3">This is option 1</label>
+                            </div>
+
+
+                            <div class="option">
+                                <input type="radio" id="option4" value="4" name="quiz">
+                                <label for="option4">This is option 1</label>
+                            </div>
+
+
+                        </div>
+                        <div class="buttons">
+                            <button type="submit">sumbit</button>
+                        </div>
+                    </form>
+
+
+            </div>
+        </div>
+    </section>
+
 
     <script src="game.js"></script>
 </body>
