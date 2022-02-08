@@ -14,3 +14,19 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+.container {
+    background-color: rgba(96, 204, 195, 0.664);
+    padding: 50px 30px 30px 30px;
+    width: 80%;
+    max-width: 600px;
+    min-height: 500px;
+    border-radius: 8px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .scoreBoard {
+    position: absolute;
+}
