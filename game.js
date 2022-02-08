@@ -25,15 +25,21 @@ const quizData = [{
         correct: "c",
 
     },
-    {
-        {
-            question: "Where is the link to the stylesheet placed ?",
-            a: "in the footer",
-            b: "inside the body of the html ",
-            c: "at the header section near the title",
-            d: "inside a class",
-            correct: "c",
 
-        }
+    {
+        question: "Where is the link to the stylesheet placed ?",
+        a: "in the footer",
+        b: "inside the body of the html ",
+        c: "at the header section near the title",
+        d: "inside a class",
+        correct: "c",
+
     }
+
 ];
+
+
+const quiz = document.getElementById('quiz')
+const answerEl = document.querySelectorAll('.answer')
+const questionEl = document.getElementById('question')
+const a_text = document.getElementById('a-text')
