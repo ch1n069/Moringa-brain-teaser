@@ -10,12 +10,13 @@ body {
     overflow: hidden;
     margin: 0;
     display: flex;
+    background-color: rgba(96, 204, 195, 0.664);
 }
 
 .quiz-box {
     background-color: white;
     border-radius: 10px;
-    width: 600px;
+    width: 700px;
     overflow: hidden;
 }
 
@@ -27,6 +28,15 @@ body {
     cursor: pointer;
     padding: 1%;
     border: none;
+}
+
+button {
+    background-color: rgb(122, 122, 122)
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
 }
 
 li {
