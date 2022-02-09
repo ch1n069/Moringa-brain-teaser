@@ -25,6 +25,10 @@ button {
     padding: 0;
 }
 
+button:hover {
+    color: red;
+}
+
 button span img {
     width: 45px;
 }
